@@ -1,0 +1,4 @@
+[flake8]
+max-line-length = 150  # Increase the line length limit to 150 characters
+ignore = E203, F821    # Ignore specific errors like whitespace before ':' (E203) and undefined names (F821)
+exclude = .venv        # Exclude the virtual environment directory
